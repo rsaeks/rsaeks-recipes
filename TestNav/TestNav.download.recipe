@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>testnav-1.4.1</string>
+        <string>testnav-1.5.2</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://download.testnav.com/_testnavinstallers/testnav-1.4.1.dmg</string>
+        <string>http://download.testnav.com/_testnavinstallers/testnav-1.5.2.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
