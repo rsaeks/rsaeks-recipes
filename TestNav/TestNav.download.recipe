@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>TestNav</string>
 		<key>BASE_URL</key>
-		<string>http://download.testnav.com/</string>
+		<string>https://s3.amazonaws.com/tn8appinstallers</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.6.1</string>
@@ -23,9 +23,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>url</key>
-				<string>%BASE_URL%</string>
+				<string>%BASE_URL%/installerVersions.json</string>
 				<key>re_pattern</key>
-				<string>(?P&lt;tn_file&gt;installers/testnav-(?P&lt;version&gt;[0-9\.]+?).dmg)</string>
+				<string>(testnav-(?P&lt;version&gt;[0-9\.]+?).dmg)</string>
 			</dict>
 		</dict>
 		<dict>
@@ -36,7 +36,7 @@
 				<key>filename</key>
 				<string>%NAME%-%version%.dmg</string>
 				<key>url</key>
-				<string>%BASE_URL%%tn_file%</string>
+				<string>%BASE_URL%/%match%</string>
 			</dict>
 		</dict>
 		<dict>
