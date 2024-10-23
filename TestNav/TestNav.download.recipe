@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>TestNav</string>
 		<key>BASE_URL</key>
-		<string>https://download.testnav.com/_testnavinstallers</string>
+		<string>https://download.testnav.com</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.6.1</string>
@@ -36,7 +36,7 @@
 				<key>filename</key>
 				<string>%NAME%-%version%.dmg</string>
 				<key>url</key>
-				<string>%BASE_URL%/%match%</string>
+				<string>%BASE_URL%/_testnavinstallers/%match%</string>
 			</dict>
 		</dict>
 		<dict>
